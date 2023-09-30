@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . /app
 
 # Compile the Java application
-RUN javac javaapp.java
+RUN javac app.java
 
 # Specify the command to run your Java application
-CMD ["java", "javaapp"]
+CMD ["java", "app"]
